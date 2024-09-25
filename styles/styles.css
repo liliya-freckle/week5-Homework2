@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+    max-width: 1200px; 
+    margin: 0 auto;
+}
+
+
+.head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 900px;
+    height: 50px;
+    background-color: darkgrey;
+} 
+.shapka {
+    display: flex;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+}
+
+.banner {
+    display: flex;
+    width: 900px;
+    height: 250px;
+}
+
+.leftBanner {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+}
+
+.rightBanner {
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    background-color: rgb(197, 212, 167);
+    }
+
+.asidePart {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}    
+.main {
+    display: flex;
+    width: 600px;
+    height: 150px;
+    justify-content: center;
+    }
+
+.mainPart {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+.more {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.part1 {
+    display: flex;
+    justify-content: space-around;
+}
+.part2 {
+    display: flex;
+    justify-content: center;
+}
+.more1,.more2 {
+    background-color: rgba(250, 229, 111, 0.568);
+    width: 270px;
+    height: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+.more3 {
+    background-color: rgba(250, 229, 111, 0.568);
+    width: 570px;
+    height: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+.foot {
+    display: flex;
+}
