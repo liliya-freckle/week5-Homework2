@@ -11,14 +11,14 @@
 }
 
 
-.head {
+.head, .foot {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     width: 900px;
     height: 50px;
-    background-color: darkgrey;
+    background-color: rgb(192, 191, 189);
 } 
 .shapka {
     display: flex;
@@ -83,13 +83,26 @@
     text-align: center;
 }
 .more3 {
-    background-color: rgba(250, 229, 111, 0.568);
+    background-color: rgba(250, 229, 111,0.568);
     width: 570px;
     height: 40px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
     text-align: center;
 }
+
 .foot {
-    display: flex;
+    height: 70px;
+    flex-direction: row;
+    justify-content: space-around;
 }
+.footer1, .footer2, .footer3, .footer4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(241, 243, 247);
+    width: 200px;
+    height: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    }
